@@ -7,6 +7,7 @@ function App() {
     <>
       <Navbar/>
       <h1>Imagina</h1>
+      <h2>Esto es una prueba</h2>
     </>
 
   )
