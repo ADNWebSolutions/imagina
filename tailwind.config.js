@@ -7,10 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        sand: "#EAB126",
-        ocean: "#1FB58F",
-        cocktail: "#F24C4E",
-        palm: "#1B7B34",
+        sand: "#F2CC0F",
+        ocean1: "#03658C",
+        ocean2: "#F24C4E",
+        ocean3: "#1B7B34",
+        pinky: "#F56B8C",
       },
     }
   },
