@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* HERO STYLES */
+.heroBg {
+    background: no-repeat center url('/heroImg.jpg');
+}
