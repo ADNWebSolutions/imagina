@@ -12,10 +12,10 @@ export default {
         ocean2: "#F24C4E",
         ocean3: "#1B7B34",
         pinky: "#F56B8C",
-      },
+      }
     }
   },
   plugins: [
-    require("daisyui") 
+    require("daisyui")
   ],
 }

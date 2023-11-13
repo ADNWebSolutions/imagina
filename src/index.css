@@ -4,5 +4,6 @@
 
 /* HERO STYLES */
 .heroBg {
-    background: no-repeat center url('/heroImg.jpg');
+    background: no-repeat url('/heroImg.jpg');
+    background-size: cover;
 }
