@@ -5,7 +5,7 @@ export default function Navbar() {
         <>
         <div className="navbar bg-sand text-white">
             <div className="flex-1">
-                
+                <img src="./LogoSinBg.png" alt="Imagina's logo" className='h-[40px]'/>
                 <p className="btn btn-ghost normal-case text-xl">Imagina</p>
             </div>
             <div className="flex-none">
@@ -13,10 +13,10 @@ export default function Navbar() {
                 <li><a>Inicio</a></li>
                 <li><a>Nosotros</a></li>
                 <li><a>Actividades</a></li>
-                <li><a>Conntacto</a></li>
+                <li><a>Contacto</a></li>
                 </ul>
             </div>
-            </div>
+        </div>
         </>
     )
 }
