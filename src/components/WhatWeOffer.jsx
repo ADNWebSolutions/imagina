@@ -4,7 +4,7 @@ const WhatWeOffer = () => {
             <h2 className="text-4xl my-8">¿Qué ofrecemos?</h2>
             <div className="content">
                 <div className="img-acts-1 m-[auto]">
-                    <img className="rounded-2xl" src="../../public/act1.jpg" alt="" />
+                    <img className="rounded-2xl" src="/act1.jpg" alt="" />
                 </div>
                 <div className="p-acts-1 flex justify-center items-center text-xl px-12">
                     <p>Hemos innovado con una nueva propuesta pedagógica en la escuela de verano, llevada a cabo y coordinada por docentes del Colegio Jockey Club Córdoba y por profesores de los distintos deportes del club.</p>
@@ -13,10 +13,10 @@ const WhatWeOffer = () => {
                     <p>Hemos innovado con una nueva propuesta pedagógica en la escuela de verano, llevada a cabo y coordinada por docentes del Colegio Jockey Club Córdoba y por profesores de los distintos deportes del club.</p>
                 </div>
                 <div className="img-act-2 m-[auto]">
-                    <img className="rounded-2xl" src="../../public/act2.jpg" alt="" />
+                    <img className="rounded-2xl" src="/act2.jpg" alt="" />
                 </div>
                 <div className="img-acts-3 m-[auto]">
-                    <img className="rounded-2xl" src="../../public/act3.jpg" alt="" />
+                    <img className="rounded-2xl" src="/act3.jpg" alt="" />
                 </div>
                 <div className="p-acts-3 flex justify-center items-center text-xl px-12">
                     <p>Hemos innovado con una nueva propuesta pedagógica en la escuela de verano, llevada a cabo y coordinada por docentes del Colegio Jockey Club Córdoba y por profesores de los distintos deportes del club.</p>
