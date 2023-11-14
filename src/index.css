@@ -7,3 +7,36 @@
     background: no-repeat url('/heroImg.jpg');
     background-size: cover;
 }
+
+/* WHATWEOFFER STYLES */
+#whatweoffer .content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 1rem 2rem;
+    grid-template-areas:
+        "img-acts-1 p-acts-1 p-acts-1"
+        "p-acts-2 p-acts-2 img-act-2"
+        "img-acts-3 p-acts-3 p-acts-3";
+}
+.p-acts-1 { grid-area: p-acts-1; }
+.p-acts-2 { grid-area: p-acts-2; }
+.p-acts-3 { grid-area: p-acts-3; }
+.img-acts-1 { grid-area: img-acts-1; }
+.img-act-2 { grid-area: img-act-2; }
+.img-acts-3 { grid-area: img-acts-3; }
+
+@media screen and (max-width: 767px) {
+    #whatweoffer .content {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "img-acts-1"
+            "p-acts-1"
+            "img-act-2"
+            "p-acts-2"
+            "img-acts-3"
+            "p-acts-3";
+        gap: 2rem;
+    }
+}
