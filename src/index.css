@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* HERO STYLES */
-.heroBg {
-    background: no-repeat url('/heroImg.jpg');
-    background-size: cover;
-}
-
 /* WHATWEOFFER STYLES */
 #whatweoffer .content {
     display: grid;
@@ -39,4 +33,13 @@
             "p-acts-3";
         gap: 2rem;
     }
+}
+/* GLASS EFECT & SHADOW IN HERO */
+.glassmorphic-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 10px 0px rgba(255,255,255,0.76);
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(255,255,255,0.76);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(255,255,255,0.76);
 }

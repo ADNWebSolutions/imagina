@@ -2,12 +2,12 @@ import React from 'react'
 
 const HeroButton = () => {
   return (
-    <button className='border border-amber-800 rounded-md hover:bg-[#FFBF00] p-1'>
-        <a href="#whatweoffer">
-          {/* /about = createBrowserRouter */}
-            Sobre nosotros!
-        </a>
-    </button>
+    <a href="#whatweoffer"
+     className='rounded-md bg-[#FFBF00] duration-200 w-full p-1 border hover:text-ocean1 hover:border-ocean1 text-3xl'>
+      <button className='w-full'>
+        Conócenos
+      </button>
+    </a>
   )
 }
 
