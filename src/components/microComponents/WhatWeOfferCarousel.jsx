@@ -8,9 +8,6 @@ function Carousel({ carousel, imgArray, handleNext, handlePrev }) {
                 <button className="btn btn-circle" onClick={() => handleNext(carousel)}>❯</button>
             </div>
             <div className="stack">
-                {/* {imgArray[carousel].map((img) => (
-                    <img src={img} className="rounded" key={img} />
-                ))} */}
                 <img src={imgArray[carousel][0]} className="rounded" />
             </div>
         </div>

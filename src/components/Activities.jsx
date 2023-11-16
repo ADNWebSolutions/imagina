@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import fogataPic from '/fogonImagina1.jpg'
+import fueguito from '../../public/fueguito.mp4'
 import jumper from '/jumper.jpg'
 import tobogan from '/tobogan.mp4'
 
@@ -7,9 +8,11 @@ import tobogan from '/tobogan.mp4'
 function Activities() {
 
     const lazyVideo = useRef(null)
+    const lazyVideo2 = useRef(null)
 
     useEffect(() => {
         lazyVideo.current.load();
+        lazyVideo2.current.load();
     }, []);
 
     return (
@@ -31,12 +34,17 @@ function Activities() {
                     <p className='text-xs lg:text-base'>Cuidado del medio ambiente, juegos en contacto con el medio natural, acantonamientos, etc.</p>
                 </div>
                 <div className="bg-red-100 col-span-1 md:col-span-2">
-                    <img src={fogataPic} alt="activity picture of a firecamp" className='h-full w-full object-cover' />
+                    {/* <img src={fogataPic} alt="activity picture of a firecamp" className='h-full w-full object-cover' /> */}
+                    <video ref={lazyVideo2}  autoPlay controls muted loop playsInline
+                        className='md:h-full w-full object-cover'>
+                        <source src={fueguito} type="video/mp4" />
+                        {/* <img src="/images/video-ph.png" width="1080" height="768" alt="Your browser does not support the videos" /> */}
+                    </video>
                 </div>
                 <div className=" md:row-span-2  max-h-screen">
                     {/* Prueba de video o imagen */}
                     {/* <img src={tenis} alt="activity picture of a firecamp" className='h-full w-full object-cover' /> */}
-                    <video ref={lazyVideo} poster='/imaginaLogo.png' controls muted loop playsInline
+                    <video ref={lazyVideo}  autoPlay controls muted loop playsInline
                         className='md:h-full w-full object-cover'>
                         <source src={tobogan} type="video/mp4" />
                         {/* <img src="/images/video-ph.png" width="1080" height="768" alt="Your browser does not support the videos" /> */}
