@@ -1,4 +1,4 @@
-import HeroButton from "./HeroButton"
+import HeroButton from "./microComponents/HeroButton"
 
 const Hero = () => {
   return (
