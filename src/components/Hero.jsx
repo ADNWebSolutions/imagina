@@ -3,10 +3,10 @@ import SocialMedia from "./SocialMedia"
 
 const Hero = () => {
   return (
-  <section className="h-screen flex flex-col justify-center items-center bg-cover bg-center text-white">
+  <section className="h-screen flex flex-col justify-center md:items-center bg-cover bg-center text-white">
       <div
         className="absolute left-0 w-full h-full bg-cover bg-center"
-        style={{ backgroundImage: 'url(./heroImg.png)' }}
+        style={{ backgroundImage: 'url(./floating.jpg)' }}
       ></div>
       <div className="flex justify-between items-center w-[80%] md:w-2/3">
         <div className="glassmorphic-box border p-4 rounded-lg text-center shadou ">
