@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        sand: "#F2CC0F",
+        sand: "#FFBF00",
         ocean1: "#03658C",
         ocean2: "#F24C4E",
         ocean3: "#1B7B34",

@@ -9,8 +9,8 @@ import Carousel from './microComponents/WhatWeOfferCarousel'
 const WhatWeOffer = () => {
     const [imgArray, setImgArray] = useState({
         first: [act1, act2, act3],
-        second: [act1, act2, act3],
-        third: [act1, act2, act3]
+        second: [act2, act3, act1],
+        third: [act3, act1, act2]
     })
     const handlePrev = (carousel) => {
         setImgArray((prevArrays) => {
@@ -30,27 +30,29 @@ const WhatWeOffer = () => {
     };
 
     return (
-        <div className="p-8" id="whatweoffer">
-            <h2 className="text-4xl my-8">¿Qué ofrecemos?</h2>
-            <div className="content">
-                {/* Pasamos por props el indice , el estado, y las funciones para ir cambiando las imagenes */}
-                <Carousel carousel={"first"} imgArray={imgArray} handleNext={handleNext} handlePrev={handlePrev} />
-                <div className="p-acts-1 flex justify-center items-center text-xl px-12">
-                    <p>Hemos innovado con una nueva propuesta pedagógica en la escuela de verano, llevada a cabo y coordinada por docentes del Colegio Jockey Club Córdoba y por profesores de los distintos deportes del club.</p>
-                </div>
-                <div className="p-acts-2 flex justify-center items-center text-xl px-12">
-                    <p>Hemos innovado con una nueva propuesta pedagógica en la escuela de verano, llevada a cabo y coordinada por docentes del Colegio Jockey Club Córdoba y por profesores de los distintos deportes del club.</p>
-                </div>
-                <div className="img-act-2 m-[auto]">
+        <div className="bg-ocean1 text-white" id="whatweoffer">
+            <div className="p-8 wrapper">
+                <h2 className="my-8 font-semibold">¿Qué ofrecemos?</h2>
+                <div className="content">
                     {/* Pasamos por props el indice , el estado, y las funciones para ir cambiando las imagenes */}
-                    <Carousel carousel={"second"} imgArray={imgArray} handleNext={handleNext} handlePrev={handlePrev} />
-                </div>
-                <div className="img-acts-3 m-[auto]">
-                    {/* Pasamos por props el indice , el estado, y las funciones para ir cambiando las imagenes */}
-                    <Carousel carousel={"third"} imgArray={imgArray} handleNext={handleNext} handlePrev={handlePrev} />
-                </div>
-                <div className="p-acts-3 flex justify-center items-center text-xl px-12">
-                    <p>Hemos innovado con una nueva propuesta pedagógica en la escuela de verano, llevada a cabo y coordinada por docentes del Colegio Jockey Club Córdoba y por profesores de los distintos deportes del club.</p>
+                    <Carousel carousel={"first"} imgArray={imgArray} handleNext={handleNext} handlePrev={handlePrev} />
+                    <div className="p-acts-1 flex justify-center items-center text-xl px-4 sm:px-12">
+                        <p>Hemos innovado con una nueva propuesta pedagógica en la escuela de verano, llevada a cabo y coordinada por docentes del Colegio Jockey Club Córdoba y por profesores de los distintos deportes del club.</p>
+                    </div>
+                    <div className="p-acts-2 flex justify-center items-center text-xl px-4 sm:px-12">
+                        <p>Hemos innovado con una nueva propuesta pedagógica en la escuela de verano, llevada a cabo y coordinada por docentes del Colegio Jockey Club Córdoba y por profesores de los distintos deportes del club.</p>
+                    </div>
+                    <div className="img-act-2 m-[auto]">
+                        {/* Pasamos por props el indice , el estado, y las funciones para ir cambiando las imagenes */}
+                        <Carousel carousel={"second"} imgArray={imgArray} handleNext={handleNext} handlePrev={handlePrev} />
+                    </div>
+                    <div className="img-acts-3 m-[auto]">
+                        {/* Pasamos por props el indice , el estado, y las funciones para ir cambiando las imagenes */}
+                        <Carousel carousel={"third"} imgArray={imgArray} handleNext={handleNext} handlePrev={handlePrev} />
+                    </div>
+                    <div className="p-acts-3 flex justify-center items-center text-xl px-4 sm:px-12">
+                        <p>Hemos innovado con una nueva propuesta pedagógica en la escuela de verano, llevada a cabo y coordinada por docentes del Colegio Jockey Club Córdoba y por profesores de los distintos deportes del club.</p>
+                    </div>
                 </div>
             </div>
         </div>
