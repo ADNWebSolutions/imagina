@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 // import fogataPic from '/fogonImagina1.jpg'
-import fueguito from '../../public/fueguito.mp4'
+import fueguito from '/fueguito.mp4'
 import jumper from '/jumper.jpg'
 import tobogan from '/tobogan.mp4'
 
