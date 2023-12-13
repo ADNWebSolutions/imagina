@@ -37,10 +37,10 @@ const WhatWeOffer = () => {
                     {/* Pasamos por props el indice , el estado, y las funciones para ir cambiando las imagenes */}
                     <Carousel carousel={"first"} imgArray={imgArray} handleNext={handleNext} handlePrev={handlePrev} />
                     <div className="p-acts-1 flex justify-center items-center text-xl px-4 sm:px-12">
-                        <p>Nuestra historia, una hermosa travesía, comenzó hace 34 años bajo la inspiradora dirección de la señora Roxanna Taborda. Desde entonces, estamos comprometidos en ofrecer una muchas actividades que perduran como base de nuestra identidad. Entre las actividades incluimos la enseñanza de natación, momentos recreativos, experiencias en contacto con la naturaleza y mucho más.</p>
+                        <p>Nuestra historia, una hermosa travesía, comenzó hace 34 años bajo la inspiradora dirección de la seño Roxanna Taborda. Desde entonces, estamos comprometidos en ofrecer una muchas actividades que perduran como base de nuestra identidad. Entre las actividades incluimos la enseñanza de natación, momentos recreativos, experiencias en contacto con la naturaleza y mucho más.</p>
                     </div>
                     <div className="p-acts-2 flex justify-center items-center text-xl px-4 sm:px-12">
-                        <p>A lo largo de años de dedicación y éxito, tuvimos la fortuna de sumar a muchos profesionales a nuestro equipo. Entre ellos, destacamos a la profe Serena Jacquet, quien se une a nosotros, el legado de Roxanna. No es solo una profesional más; Serena es nada menos que la hija de Roxanna, sumando a la pasión y el compromiso que caracterizan a nuestra institución</p>
+                        <p>A lo largo de años de dedicación y éxito, tuvimos la fortuna de sumar a muchos profesionales a nuestro equipo. Entre ellos, destacamos a la seño Serena Jacquet, quien se une a nosotros, el legado de Roxanna. No es solo una profesional más; Serena es nada menos que la hija de Roxanna, sumando a la pasión y el compromiso que caracterizan a nuestra institución</p>
                     </div>
                     <div className="img-act-2 m-[auto]">
                         {/* Pasamos por props el indice , el estado, y las funciones para ir cambiando las imagenes */}
