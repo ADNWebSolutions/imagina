@@ -8,7 +8,7 @@ function Carousel({ carousel, imgArray, handleNext, handlePrev }) {
                 <button className="px-4 py-2 mx-1 rounded-full text-3xl text-white bg-white bg-opacity-25 backdrop-blur-[1px] drop-shadow-[0_0_12px_rgb(0,0,0)]" onClick={() => handleNext(carousel)}>❯</button>
             </div>
             <div className="stack">
-                <img src={imgArray[carousel][0]} className="rounded" />
+                <img src={imgArray[carousel][0]} className="rounded h-[50vh] w-[50vh] object-cover object-top " />
             </div>
         </div>
     )

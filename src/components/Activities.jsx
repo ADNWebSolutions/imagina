@@ -30,7 +30,7 @@ function Activities() {
                                 flex flex-col items-center justify-center
                                 text-white text-center">
                         <h2 className="mb-4 font-medium">Vida en la naturaleza</h2>
-                        <p className=''>Cuidado del medio ambiente, juegos en contacto con el medio natural, acantonamientos, etc.</p>
+                        <p className=''>La diversión no termina con el sol, ya que las noches se transforman en una experiencia mágica de carpas y fogatas, entre cuentos fascinantes y canciones bajo las estrellas.</p>
                     </div>
                     <div className="bg-red-100 col-span-1 md:col-span-2">
                         {/* <img src={fogataPic} alt="activity picture of a firecamp" className='h-full w-full object-cover' /> */}
@@ -53,8 +53,8 @@ function Activities() {
                                 text-white text-center 
                                 flex flex-col items-center justify-center
                                 p-8 max-h-[612px]">
-                        <h2 className="mb-4 font-medium">Vida en la naturaleza</h2>
-                        <p className=''>Cuidado del medio ambiente, juegos en contacto con el medio natural, acantonamientos, etc.</p>
+                        <h2 className="mb-4 font-medium">Diversion y pile</h2>
+                        <p className=''>El deslizador acuático que despierta el espíritu aventurero de los niños. y los tiburones se sumergen en el mundo acuático de la pileta, donde aprenden no solo a disfrutar del agua, sino importantes lecciones de seguridad</p>
                     </div>
                     <div className="md:row-span-2">
                         <img src={jumper} alt="activity picture of a firecamp" className='w-full h-full object-cover max-h-[612px] rounded-lg' />
