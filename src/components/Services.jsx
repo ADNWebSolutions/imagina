@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Services() {
     return (
-        <div className="flex flex-col items-center justify-center h-32">
+        <div className="flex flex-col items-center justify-center h-32 my-9 sm:my-0">
             {/* Bloque con enlace a página externa */}
             <a
                 href="https://www.facebook.com/p/SEM-R%C3%ADo-II-Pilar-100064755112161/?locale=es_LA&paipv=0&eav=AfZWbdXGTZT4fKiVi-pin2tg7wI_7Rn3CdRCU53bqBbP9WZFV9lGg6EcWZO89d_0Irg&_rdr"

@@ -15,10 +15,12 @@ const TermsModal = ({ isOpen, onRequestClose }) => {
                 content: {
                     maxWidth: '60%',
                     margin: 'auto',
+                    background: 'black',
+                    borderRadius: '2rem'
                 },
             }}
         >
-            <div>
+            <div className='bg-black rounded-lg flex flex-wrap'>
                 <h2 className="font-bold">Términos y condiciones</h2>
                 <p>Bienvenido/a a nuestro sitio web. Antes de utilizar este sitio, por favor lee detenidamente estos Términos y Condiciones. Al acceder y utilizar este sitio web, aceptas cumplir con estos Términos y Condiciones. Si no estás de acuerdo con alguno de los términos establecidos aquí, te recomendamos que no utilices este sitio.</p>
 
@@ -41,7 +43,12 @@ const TermsModal = ({ isOpen, onRequestClose }) => {
 
                 <h2>Modificaciones de los Términos y Condiciones:</h2>
                 <p>4.1. ADN se reserva el derecho de modificar estos Términos y Condiciones en cualquier momento sin previo aviso. Te recomendamos que revises regularmente esta sección para estar al tanto de cualquier cambio.</p>
-                <button onClick={onRequestClose}>Cerrar</button>
+                
+            </div>
+            <div className='inline'>
+                <div className='flex justify-end'>
+                    <button className='btn-primary p-2 rounded-lg ' onClick={onRequestClose}>Cerrar</button>
+                </div>
             </div>
         </Modal>
     );

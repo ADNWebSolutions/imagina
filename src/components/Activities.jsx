@@ -24,7 +24,6 @@ function Activities() {
                             md:grid-cols-3 md:grid-rows-3 gap-4
                             [&>div]:md:h-auto [&_div]:rounded-lg
                             [&_div]:overflow-hidden
-                            mb-8
                             ">
                     <div className="bg-yellow-400 md:row-span-1 p-8
                                 flex flex-col items-center justify-center
@@ -56,7 +55,7 @@ function Activities() {
                         <h2 className="mb-4 font-medium">Diversion y pile</h2>
                         <p className=''>El deslizador acuático que despierta el espíritu aventurero de los niños. y los tiburones se sumergen en el mundo acuático de la pileta, donde aprenden no solo a disfrutar del agua, sino importantes lecciones de seguridad</p>
                     </div>
-                    <div className="md:row-span-2">
+                    <div className="md:row-span-2 items-center">
                         <img src={jumper} alt="activity picture of a firecamp" className='w-full h-full object-cover max-h-[612px] rounded-lg' />
                     </div>
                 </div>
