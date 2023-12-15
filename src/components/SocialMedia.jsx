@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebook, faWhatsapp, faMicrosoft} from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faFacebook, faWhatsapp, faMicrosoft } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const SocialMedia = (props) => {
   const className = props.className;
@@ -23,7 +24,8 @@ const SocialMedia = (props) => {
             <FontAwesomeIcon icon={faWhatsapp} />
           </a>
           <a href="mailto:serenakpa6@hotmail.com" target="_blank" className="ml-4 hover:duration-200 hover:text-sand">
-            <FontAwesomeIcon icon={faMicrosoft} />
+
+            <FontAwesomeIcon icon={faEnvelope } />
           </a>
         </div>
       </div>
