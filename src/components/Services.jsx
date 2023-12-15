@@ -19,7 +19,7 @@ export default function Services() {
 
             {/* Bloque de párrafo con estilo de negritas y sombreado */}
             <p className="text-lg font-bold text-white shadow-md bg-green-600 p-3 rounded-md">
-                Dr. Gustavo Jaquet
+                Dr. Gustavo Jacquet
             </p>
         </div>
     );
